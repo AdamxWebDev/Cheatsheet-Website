@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML and CSS Cheatsheet</title>
+        <link rel="Stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="banner">
+            <h1>HTML, CSS and Javascript Cheatsheet</h1>            
+            <p>This document will be updated as needed.</p>
+            <h4>By Adam McCartney <time datetime="2021-12-13-1600">Updated: Dec 13, 2021</time></h4>
+            
+        </header>
+        <br>
+        <nav>
+            <h2>Table of Contents</h2>
+            <ol id="table-of-contents">
+                <li><a href="#HTML1">HTML</a> 
+                    <ol>
+                        <li><a href="#html-elements">Elements</a></li>
+                        <li><a href="#html-structure">Structure</a></li>
+                        <li><a href="#html-tables">Tables</a></li>
+                        <li><a href="#html-semantic">HTML Semantic</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#CSS1">CSS</a> 
+                    <ol>
+                        <li><a href="#selectors">Selectors and Visual Rules</a></li>
+                    </ol>
+                </li>
+                <li><a href="#JAVASCRIPT1">JavaScript</a>
+                    <ol>
+                        <li><a href="#objects">Objects</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <main>
+            <article class="html-article">
+            
+                <h2 id=HTML1>HTML</h2>
+                <p>In this section we will be discussing all about HTML, it's elements, attributes and properties.</p>
+                <p>HTML (HyperText Markup Language) is used to give content to a web page and instructs web browsers on how to structure that content.</p>
+                <div class="elements">
+                    <h3 id="html-elements">Elements</h3>
+                    <p>The content of an HTML element is the information between the opening and closing tags of an element.</p>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li" target="_blank">&lt;li&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target="_blank">&lt;video&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em" target="_blank">&lt;em&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" target="_blank">&lt;ol&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank">&lt;div&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br" target="_blank">&lt;br&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank">&lt;img&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">&lt;h1-h6&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">&lt;p&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul" target="_blank">&lt;ul&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="_blank">&lt;body&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span" target="_blank">&lt;span&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong" target="_blank">&lt;strong&gt;</a></li>
+                    </ul>
+                </div>
+
+                <div class="structure">
+                    <h3 id="html-structure">Structure</h3>
+                    <p>Some tips on structuring of your HTML code.</p>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/docs/Web/HTML/Element/a" target="_blank">&lt;a&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target="_blank">&lt;head&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">target</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="_blank">&lt;html&gt;</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" target="_blank">&lt;title&gt;</a></li>
+                    </ul>
+                    <h4>Indentation</h4>
+                    <p>HTML code should be formatted such that the indentation level of text increases once for each level of 
+                    nesting. It is a common convention to use two or four space per level of nesting.</p>
+                    <h4>Link to a Different Part of the Page #</h4>
+                    <p>The anchor element &lt;a&gt; can create hyperlinks to different parts of the same HTML document using the 
+                    href attribute to point to the desired location with # followed by the id of the element to link to.</p>
+                    <h4>Comments</h4>
+                    <p>In HTML, comments can be added between an opening &lt;!-- and closing --&gt;. Content inside of comments 
+                    will not be rendered by browsers, and are usually used to describe a part of code or provide other 
+                    details. Comments can span single or multiple lines.</p>
+                    <h4>Whitespace</h4>
+                    <p>Whitespace, such as line breaks, added to an HTML document between block-level elements will generally 
+                    be ignored by the browser and are not added to increase spacing on the rendered HTML page. Rather, 
+                    whitespace is added for organization and easier reading of the HTML document itself.</p>
+                    <h4>File Path</h4>
+                    <p>URL paths in HTML can be absolute paths, like a full URL, for example: 
+                    https://developer.mozilla.org/en-US/docs/Learn or a relative file path that links to a local file in 
+                    the same folder or on the same server, for example: ./style.css. Relative file paths begin with ./ 
+                    followed by a path to the local file. ./ tells the browser to look for the file path from the current 
+                    folder.</p>
+                    <h4>Document Type Declaration</h4>
+                    <p>The document type declaration <!DOCTYPE html> is required as the first line of an HTML document. 
+                    The doctype declaration is an instruction to the browser about what type of document to expect and 
+                    which version of HTML is being used, in this case it’s HTML5.</p>
+                </div>
+
+                <div class="tables">
+                    <h3 id="html-tables">Tables</h3>
+                    <ul>
+                        <li><a href="">&lt;tr&gt;</a></li>
+                        <li><a href="">&lt;td&gt;</a></li>
+                        <li><a href="">&lt;thead&gt;</a></li>
+                        <li><a href="">&lt;tbody&gt;</a></li>
+                        <li><a href="">&lt;th&gt;</a></li>
+                        <li><a href="">&lt;tfoot&gt;</a></li>
+                        <li><a href="">&lt;table&gt;</a></li>
+                    </ul>
+                    <h4>rowspan Attribute</h4>
+                    <p>Similar to colspan, the rowspan attribute on a table header or table data element indicates how many 
+                    rows that particular cell should span within the table. The rowspan value is set to 1 by default and 
+                    will take any positive integer up to 65534.</p>
+                    <h4>colspan Attribute</h4>
+                    <p>The colspan attribute on a table header &lt;th&gt; or table data &lt;td&gt; element indicates how many columns 
+                    that particular cell should span within the table. The colspan value is set to 1 by default and 
+                    will take any positive integer between 1 and 1000.</p>                
+                </div>
+
+                <div class="semantics">
+                    <h3 id="html-semantic">Semantic HTML</h3>
+                    <h4>Semantic HTML</h4>
+                    <p>Semantic HTML introduces meaning to the code we write. Before Semantic HTML the elements didn’t have 
+                        any meaning as to what it does or what content goes in it. An element such as &lt;div&gt; was used as a 
+                        general-purpose element to create things from headers to footers to articles. With Semantic HTML 
+                        we were introduced to elements that tell developers and browsers exactly what it does and what 
+                        content should go in it.</p>
+                </div>
+
+            </article>
+            <article class="css-article">
+                <h2 id="CSS1">CSS</h2>
+                <div class="selectors">
+                    <h3 id="javascript-selectors">CSS Selectors and Visual Rules</h3>
+                    <p>Content Not Yet Available</p>
+                </div>
+            </article>
+
+            <article class="javascript-article">
+                <h2 id="JAVASCRIPT1">JavaScript</h2>
+                <div class="objects">
+                    <h3 id="objects">Objects</h3>
+                    <p>Content Not Yet Available</p>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>
