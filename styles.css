@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: helvetica;
+    line-height: 1.4;
     color:whitesmoke;
     background-image: url('Media/283372-high-tech-wallpaper-high-tech-wallpaper.png');
     background-repeat: no-repeat;
@@ -9,9 +13,29 @@ body {
     -moz-background-size: cover;
     -webkit-background-size: cover;
 }
-.wrapper {
-    background-color: rgba(0, 0, 0, .50)
+nav {
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .90);
+    border: 1px solid yellowgreen;
 }
+main {
+    padding: 25px 100px;
+}
+
+#icons {
+    height: 216px;
+    Width: 554px;
+}
+.wrapper {
+    background-color: rgba(0, 0, 0, .50);
+}
+.html, .css, .javascript{
+    background-color: rgba(0, 0, 0, .90);
+    border: 1px solid yellowgreen;
+    padding: 0px 15px;
+}
+
 .banner {
     text-align: center;
 }
@@ -33,16 +57,18 @@ p, li{
     font-size: 16px;
 }
 h2 {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 900;
+    text-align: center;
 }
 h3 {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
+    text-align: center;
 }
 h4 {
     font-style: italic;
-    font-size: 20px;
+    font-size: 24px;
 }
 footer p {
     text-align: center;
