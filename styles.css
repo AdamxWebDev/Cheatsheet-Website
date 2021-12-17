@@ -20,11 +20,11 @@ body {
 }
 .banner h4 {
     font-size: 18px;
-    color: gray
+    color: gray;
 }
 .banner time {
     font-size: 18px;
-    color: gray
+    color: gray;
 }
 .banner p {
     font-size: 28px;
@@ -53,5 +53,5 @@ a {
     color:lightskyblue;
 }
 :visited {
-    color:yellowgreen
+    color:yellowgreen;
 }
