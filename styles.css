@@ -10,7 +10,7 @@ body {
     -webkit-background-size: cover;
 }
 .wrapper {
-    background-color: rgba(0, 0, 0, .75)
+    background-color: rgba(0, 0, 0, .50)
 }
 .banner {
     text-align: center;
