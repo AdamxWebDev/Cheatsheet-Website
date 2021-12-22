@@ -1,10 +1,7 @@
 * {
     box-sizing: border-box;
 }
-body {
-    font-family: helvetica;
-    line-height: 1.4;
-    color:whitesmoke;
+html {
     background-image: url('Media/283372-high-tech-wallpaper-high-tech-wallpaper.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,12 +10,17 @@ body {
     -moz-background-size: cover;
     -webkit-background-size: cover;
 }
+body {
+    font-family: helvetica;
+    line-height: 1.4;
+    color:whitesmoke;
+}
 header {
     padding: 25px 95px 25px 210px;
 }
 nav {
     width: 200px;
-    height: 700px;
+    height: 98%;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, .90);
     border: 1px solid yellowgreen;
