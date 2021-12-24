@@ -90,3 +90,7 @@ a {
 :visited {
     color:yellowgreen;
 }
+.button {
+    width: 40%;
+    margin: 0 30%;
+}
