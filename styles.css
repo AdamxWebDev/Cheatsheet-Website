@@ -18,7 +18,7 @@ body {
 header {
     padding: 25px 95px 25px 210px;
 }
-nav {
+#navigation {
     width: 200px;
     height: 98%;
     margin: 0 auto;
@@ -93,4 +93,10 @@ a {
 .button {
     width: 40%;
     margin: 0 30%;
+}
+#fixed-navigation {
+    width: 300px;
+    margin: 0 auto;
+    background-color:rgba(0, 0, 0, .90);
+    border: 1px solid yellowgreen;
 }
