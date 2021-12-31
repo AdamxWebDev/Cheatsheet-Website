@@ -13,7 +13,7 @@ main.style.padding = "25px 100px";
 header.style.padding = "25px 100px";
 };
 
-button.addEventListener("click", hideTable);
+button.onclick = hideTable;
 
 
 
