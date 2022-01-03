@@ -11,10 +11,10 @@ button2.removeAttribute("hidden")
 main.style.padding = "25px 100px";
 header.style.padding = "25px 100px";
 navBox.style.width = "300px";
-navBox.style.height = ""
-navBox.style.position = "static"
-navBox.style.left = ""
-navBox.style.top = ""
+navBox.style.height = "";
+navBox.style.position = "static";
+navBox.style.left = "";
+navBox.style.top = "";
 };
 
 let showTable = () => {

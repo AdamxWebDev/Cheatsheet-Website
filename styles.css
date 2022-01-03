@@ -94,9 +94,3 @@ a {
     width: 40%;
     margin: 0 30%;
 }
-#fixed-navigation {
-    width: 300px;
-    margin: 0 auto;
-    background-color:rgba(0, 0, 0, .90);
-    border: 1px solid yellowgreen;
-}
